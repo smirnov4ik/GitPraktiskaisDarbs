@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Sveiki! Šis ir mans Git praktiskais darbs.");
+﻿Console.Write("Ievadi savu vārdu: ");
+string name = Console.ReadLine();
+
+Console.WriteLine("Sveiki, " + name + "! Šis ir mans Git praktiskais darbs.");
